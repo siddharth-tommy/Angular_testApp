@@ -1,0 +1,116 @@
+.form-controls
+{display: block;
+    float: right;
+    /* width: 100%; */
+    padding:3px;
+    margin-right: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.dashboard-body{
+    background-color: #EFEFEF;
+    height: auto;
+}
+.status-monitoring-table{
+    background-color: white;
+
+}
+@media(max-width:769px){
+    .status-monitoring-table{
+        width: max-content;
+    }
+}
+.product-header{
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+    margin: 19px;
+    font-weight: bold;
+}
+.stories-monitor{
+    font-size: 30px;
+    color: black;
+}
+table {
+   width: 100%;
+ 
+ }
+ th.mat-sort-header-sorted {
+   color: black;
+ }
+ tr:nth-child(even) {
+     background-color: whitesmoke;
+ }
+ .table-div{
+     height: 350px;
+     overflow-y: auto;
+     margin-bottom: 10px;
+   }
+   .status-red-text{
+       color: tomato;
+   }
+mat-icon{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+mat-expansion-panel:nth-child(odd){
+    background-color: whitesmoke;
+}
+.task-history-header{
+    padding-top: 6px;
+    padding-left: 20px;
+    color: black;
+    font-weight: bold;
+}
+button{
+    border: none;
+}
+@media(max-width:1442px) and (min-width:1370px){
+    #subNavbar{
+        margin-top: 0;
+    }
+}
+@media(max-width:1310px) and (min-width:900px){
+    #subNavbar{
+        margin-top: 11% !important;
+    }
+}
+@media(max-width:1035px) and (min-width:850px){
+    #subNavbar{
+        margin-top: 16% !important;
+    }
+}
+@media(max-width:849px)and (min-width:651px){
+    #subNavbar{
+        margin-top: 42% !important;
+    }
+}
+@media(max-width:650px) and (min-width:480px){
+    #subNavbar{
+        margin-top: 60% !important;
+    }
+}
+@media(max-width:479px) and (min-width:310px){
+    #subNavbar{
+        margin-top: 83% !important;
+    }
+}
+@media(max-width:799px){
+    .nav-default li a{
+        padding: 3px;
+        font-size: 12px;
+        color: black;
+        background: whitesmoke;
+        border: 1px solid grey;
+        text-decoration: none;
+        border-radius: 10px;
+        margin-left: 2px;
+        cursor: pointer;
+    }
+}

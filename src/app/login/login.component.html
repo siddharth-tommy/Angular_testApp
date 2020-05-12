@@ -1,0 +1,77 @@
+
+<div class="container-fluid">
+
+    <div class="row login-position">
+        <!-- dummy grid -->
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12"></div>
+
+        <!-- login grid -->
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 login-panel">
+           <div class="row">
+               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div>
+                    <!-- <div class="login-header" >Login</div> -->
+                </div>
+               </div>
+           </div>
+           <div class="row pt-3">
+               <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12 d-none d-sm-block text-left">
+                   <h1 style="font-weight: 500;">MyLogo</h1>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 d-none d-sm-block">
+                   <button [matMenuTriggerFor]="lang" class="btn btn-primary" matTooltip="Language">English <span><mat-icon>keyboard_arrow_down</mat-icon></span></button>
+                   <mat-menu #lang="matMenu">
+                    <button mat-menu-item>简体</button>
+                    <button mat-menu-item>繁體</button>
+                    <button mat-menu-item>English</button>
+                    <button mat-menu-item>Deutsch</button>
+                    <button mat-menu-item>Français</button>
+                </mat-menu>
+               </div>
+           </div>
+           <hr>
+           <div class="row pt-3">
+               
+               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 co-12">
+                        <mat-form-field appearance="fill">
+                            <mat-label>Username</mat-label>
+                            <input autocomplete="off" oncopy="return false" onpaste="return false" matInput>
+                          </mat-form-field>
+                          <mat-form-field appearance="fill">
+                            <mat-label>Password</mat-label>
+                            <input autocomplete="off" oncopy="return false" onpaste="return false" matInput>
+                          </mat-form-field>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 co-12 text-left">
+                        <mat-checkbox color="primary">Kept Logged in</mat-checkbox>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 co-12">
+                        <button (click)="login()" routerLink="/dashboard" class="btn btn-primary">Login</button>
+                    </div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <a href="#" ><mat-icon class="ml-2" matTooltip="Opensource"> directions_bike</mat-icon></a>
+                        <a href="#" ><mat-icon class="ml-2" matTooltip="Enterprise"> motorcycle</mat-icon></a>
+                        <a href="#" ><mat-icon class="ml-2" matTooltip="Professional"> local_car_wash</mat-icon></a>
+
+                    </div>
+                </div>
+                
+               </div>
+           </div>
+         
+        </div>
+
+        <!-- dummy grid -->
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12"></div>
+    </div>
+
+</div>
