@@ -6,8 +6,8 @@
       "jasmine",
       "node"
     ]
-  },
-  "files": [
+  },have
+  "files": [ had
     "src/test.ts",
     "src/polyfills.ts"
   ],
